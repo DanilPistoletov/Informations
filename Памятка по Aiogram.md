@@ -17,8 +17,8 @@ while 1:<br>
 Пример кода:
 <details>
   <summary>Код</summary>
-@dp.message(F.new_chat_members)
-async def new_member(message: types.Message):
+@dp.message(F.new_chat_members)<br>
+async def new_member(message: types.Message):<br>
   await bot.send_message(chat_id, "Привет, новенький")
 </details>
 <h3>Можно ли использовать два равных диспетчера одновременно?</h3>
